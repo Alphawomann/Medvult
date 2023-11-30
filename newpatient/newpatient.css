@@ -1,0 +1,324 @@
+body {
+    margin: 30px;
+    background: var(--foundation-primary-color-darker, #0b2a54); 
+  }
+  
+  .parentdiv {
+    display: flex;
+    background: var(--foundation-primary-color-darker, #0b2a54);
+    padding-left: 20px;
+  }
+
+  hr {
+    display: block; 
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;  
+    margin-left: auto;
+    margin-right: auto; 
+    border-style: inset; 
+    border-width: 1px; 
+  }
+  
+  .arrowholder{
+  padding-top: 40px;  
+  }
+  
+  .image-dasboard {  
+    margin: 0; 
+    height: 2000px; 
+    width: 10%;     
+    background: var(--foundation-primary-color-dark-active, #0d366c); 
+    flex-basis: 40%; 
+  }
+  .secondcolumn {
+    background: var(--foundation-primary-color-darker, #0b2a54);
+    color: white;  
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+  }
+  .minimenu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "Space Mono", monospace;
+  }
+
+  .lastrow{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+  }
+
+  .drb{
+    padding-right: 20px;
+    margin-bottom: 10px; 
+  }
+
+  form.example{
+    display: flex;
+  }
+  
+  form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid white;
+        /* float: left; */
+        width: 80%;
+        background: transparent;
+        border-right: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: transparent;
+        color: white;
+        font-size: 17px;
+        border: 1px solid white;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+    .viewbuttons{
+    width: 180px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: white;
+    font-family: "Space Mono", monospace;
+    }
+
+    .viewbuttonss{
+        width: 180px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: "Space Mono", monospace;
+        background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+
+    }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+  .search-bar {
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+  }
+  .img1 {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+
+  }
+  .img2 {
+    width: 40px;
+    height: 40px;
+  
+  }
+  #light {
+    text-align: center;
+  }
+  .mpatient{
+    border-radius: 0px 40px 40px 0px;
+    background: #7912a2;
+    color: #fffde9;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 40px;
+    flex-shrink: 0;
+    font-family: "Space Mono", monospace;
+    font-size: 20px; 
+  } 
+  .view{
+   display: grid;
+   align-items: center;
+    text-decoration: none;
+    padding-top: 80px;
+    padding-left: 20px;
+    text-align: left; 
+    color: white;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    line-height: 350%;
+    list-style-type: none;
+  }
+
+  .icon {
+    position: relative;
+    right: 5%;
+  }
+  .home1 {
+    position: relative;
+    margin-top: 50%;
+  }
+
+  .secondcolumn{
+    padding-left: 30px;
+    padding-bottom: 100px;
+  }
+  
+  .drview{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+  
+  .vieww{
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  .h3 {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+  }
+  #light {
+    font-family: "Space Mono", monospace;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle; /* Align the image vertically in the middle of the cell */
+  }
+
+  .homeicon{
+    padding-top: 200px;
+  }
+
+  .personal{
+    display: flex;
+    justify-content: space-between;
+
+  /* }
+  .personall{
+    color:linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+*/
+
+ 
+    
+  }
+
+  .editbutton{
+padding-left: 100px;
+width: 24px;
+height: 24px;
+
+  }
+
+  table {
+    font-family: "Space Mono", monospace;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .emergency{
+    font-family: "Space Mono", monospace;
+  }
+
+  .emergencyy{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+
+  .immunization{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+
+  .retext{
+    border-radius: 8px;
+    border: 1px solid #B5B5B5
+  }
+
+  .tab{
+    display: flex;
+  }
+
+  .tab1{
+    border-collapse: collapse;
+  }
+
+  .transfer{
+  width:492px;
+height:45px;
+top: 2332px;
+left: 660px;
+padding: 12px, 444px, 12px, 444px;
+border-radius: 4px;
+gap: 10px;
+background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+color: white; 
+font-family: "Space Mono", monospace;
+
+
+  }
+
+  .update{
+    padding-left: 40px;
+    width: 491px;
+    height: 42px;
+    top: 938px;
+    left: 14967px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    gap: 10px;
+    color: white;
+    background: transparent;
+    font-family: "Space Mono", monospace;
+  
+    
+  }
+
+  .transfercon{
+  padding-top: 50px;
+  padding-left: 150px;
+  }
+
+  .updatecon{
+    padding-top: 30px;
+    padding-left: 150px;
+    }
+  

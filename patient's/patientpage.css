@@ -1,0 +1,237 @@
+body{
+  margin: 0;
+}
+.parentdiv {
+    display: flex; 
+  }
+
+  .arrowholder{
+  padding-top: 40px;
+  }
+  
+  
+  .side-bar{
+    margin: 0;
+    /* max-width: 300px; */
+    background: var(--foundation-primary-color-dark-active, #0d366c);
+    flex: 0 0 22%; 
+    padding: 20px 50px;
+  }
+  .secondcolumn {
+    background: var(--foundation-primary-color-darker, #0b2a54);
+    color: white; 
+    flex: 1; 
+    padding-right:70px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+  }
+  
+  .minimenu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    font-family: "Space Mono", monospace;
+    justify-content: space-between;
+  }
+
+  .lastrow{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+  }
+
+  .drb{
+    padding-left: 20px;
+  }
+
+  form.example{
+    display: flex;
+  }
+  
+  form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid white;
+        /* float: left; */
+        width: 80%;
+        background: transparent;
+        border-right: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: transparent;
+        color: white;
+        font-size: 17px;
+        border: 1px solid white;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+    .viewbuttons{
+    width: 180px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: white;
+    font-family: "Space Mono", monospace;
+    }
+
+    .viewbuttonss{
+    width: 180px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: "Space Mono", monospace;
+    background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+
+    }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      /* Clear floats */
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+  .search-bar {
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+  }
+  /*
+  .img1 {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+
+  } 
+  .img2 {
+    width: 40px;
+    height: 40px;
+  
+  }*/
+  #light {
+    text-align: center;
+  }
+  .active-link{
+    border-radius: 0px 40px 40px 0px;
+    background: #7912a2;
+    color: #fffde9;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Space Mono", monospace;
+  } 
+  .view{
+    padding-top: 80px;
+    padding-left: 20px;
+    text-align: left; 
+    color: white;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    list-style-type: none;
+  }
+
+  .home{
+    text-align: left; 
+    color: white;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    list-style-type: none; 
+    padding-bottom: 20px;
+    padding-left: 3px;
+
+  }
+
+  .homeicon{
+    width: 30px;
+height: 30px;
+border: 4px;
+padding-top: 15px;
+
+  }
+
+  .view li{
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+  .view li img{
+  margin-right: 20px;
+  }
+
+
+  .home1 {
+    display: flex; 
+    margin-top: 50%;
+
+  }
+  .views{
+    display: flex;
+    padding-top: 200px;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-color:linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+  }
+    
+  .tot {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    border: solid;
+    border-radius: 4px;   
+    padding-top: 10px;
+    width: 32%;
+    border: 2px solid #9716CA; 
+  }
+  
+  .drview{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+  
+  .vieww{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Space Mono", monospace;
+  }
+  .h3 {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+  }
+  #light {
+    font-family: "Space Mono", monospace;
+  }
+  
+  

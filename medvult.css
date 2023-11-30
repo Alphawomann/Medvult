@@ -89,6 +89,35 @@ color: white;
 font-family: 'Space Mono', monospace;
 }
 
+.try{
+    display:flex;
+    align-items: center;
+}
+
+.trybutton{
+    margin-right: 5px;
+    padding: 13px 30px;
+    border: none;
+    color: white;
+   border-radius: 4px;
+background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+font-family: 'Space Mono', monospace;
+}
+
+.demophoto{
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-top: 10px;
+
+}
+
+.demobutton{
+    color: white;
+    background: transparent;   
+    border: none;
+    font-family: 'Space Mono', monospace;
+}
+
 .imageholder{
     width: 80%;
 }
@@ -96,8 +125,6 @@ font-family: 'Space Mono', monospace;
 .imageholder img{
 width: 500px;
 }
-
-
 
 .aboutsection{
     /*background-image: radial-gradient(#1E78F0, #9716CA, #1E78F0);*/
@@ -140,13 +167,21 @@ margin-top: 30px;
 
 .div-button{
 text-align: center;
-margin: 10px;
-padding: 10px;
+margin-top: 20px;
+padding: 50px 50px;
+}
+
+.viewbut{
+padding: 15px 40px;
+border: none;
+color: white;
+border-radius: 4px;
+background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
 }
 
 .sponsorholder img{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
 .first_menu{

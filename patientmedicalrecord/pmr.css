@@ -1,0 +1,345 @@
+body {
+    margin:0; 
+  }
+  
+  .parentdiv {
+    display: flex;
+  }
+
+  .arrowholder{
+  padding-top: 40px; 
+  }
+  
+  .side-bar{  
+    margin: 0;    
+    background: var(--foundation-primary-color-dark-active, #0d366c); 
+    flex: 0 0 22%; 
+    padding: 20px 50px;
+  }
+  .secondcolumn {
+    padding-left: 30px;
+    padding-bottom: 100px;
+    background: var(--foundation-primary-color-darker, #0b2a54);
+    color: white;  
+    padding-right: 70px; 
+    flex: 1;
+
+  }
+
+  .minimenu {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+
+  .lastrow{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+  }
+
+  .drb{
+    padding-left: 20px;
+  }
+
+  form.example{
+    display: flex;
+  }
+  
+  form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid white;
+        /* float: left; */
+        width: 80%;
+        background: transparent;
+        border-right: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: transparent;
+        color: white;
+        font-size: 17px;
+        border: 1px solid white;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+    .viewbuttons{
+    width: 180px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: white;
+    font-family: "Space Mono", monospace;
+    }
+
+    .viewbuttonss{
+        width: 180px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: "Space Mono", monospace;
+        background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+
+    }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      /* Clear floats */
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+  .search-bar {
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+  }
+  /*.img1 {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+
+  }
+  .img2 {
+    width: 40px;
+    height: 40px;
+  } */
+
+  #light {
+    text-align: center;
+  }
+  .active-link{
+    border-radius: 0px 40px 40px 0px;
+    background: #7912a2;
+    color: #fffde9;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Space Mono", monospace;
+
+  } 
+  .view{
+    padding-top: 80px;
+    padding-left: 20px;
+    text-align: left; 
+    color: white;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    list-style-type: none;
+  }
+
+  .view li{
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .view li img{
+      margin-right: 20px;
+      }
+
+      .homeicon{
+        padding-top: 15px;
+        width: 30px;
+        height: 30px;
+        border: 4px;
+      }
+  
+
+  .home{
+    text-align: left; 
+    color: white;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    list-style-type: none; 
+    padding-bottom: 20px;
+    padding-left: 3px;
+
+  }
+
+  .views{
+    display: flex;
+    padding-top: 850px;
+  }
+
+  .editt{
+    display: flex;
+    align-items: center;
+  }
+  .home1 {
+    display: flex;
+    margin-top: 50%;
+  }
+
+  .homeicon{
+    width: 30px;
+    height: 30px;
+border: 4px;
+padding-top: 15px;
+
+  }
+  
+  .drview{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+  
+  .vieww{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Space Mono", monospace;
+
+  }
+  .h3 {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+  }
+
+
+  .homeicon{
+    padding-top: 15px;
+    width: 30px;
+    height: 30px;
+    border: 4px;
+  }
+
+  .personal{
+    display: flex;
+    justify-content: space-between;  
+  }
+
+  .editbutton{
+  padding-right: 10px;
+  }
+
+
+  table {
+    font-family: "Space Mono", monospace;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  td.borderr{
+ border: 1px solid white!important;
+  }
+
+
+  
+
+
+  .emergency{
+    font-family: "Space Mono", monospace;
+    
+  }
+
+  .emergencyy{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+    border: 1px solid white;
+    padding: 10px;
+
+  }
+
+  .immunization{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Space Mono", monospace;
+  }
+
+  .retext{
+    border-radius: 8px;
+    border: 1px solid #B5B5B5
+  }
+
+  .tab{
+    display: flex;
+    justify-content: space-between;
+    gap:5px
+
+  }
+
+  .tab1{
+    border-collapse: collapse;
+    width: 62%;
+  }
+
+  .transfer{
+  width:492px;
+height:45px;
+top: 2332px;
+left: 660px;
+padding: 12px, 444px, 12px, 444px;
+border-radius: 4px;
+gap: 10px;
+background: linear-gradient(100.39deg, #1E78F0 1.81%, #9716CA 100%);
+color: white; 
+font-family: "Space Mono", monospace;
+
+
+  }
+
+  .update{
+    padding-left: 40px;
+    width: 491px;
+    height: 42px;
+    top: 938px;
+    left: 14967px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    gap: 10px;
+    color: white;
+    background: transparent;
+    font-family: "Space Mono", monospace;
+  
+    
+  }
+
+  .transfercon{
+  padding-top: 50px;
+  padding-left: 150px;
+  }
+
+  .updatecon{
+    padding-top: 30px;
+    padding-left: 150px;
+    }
+  
