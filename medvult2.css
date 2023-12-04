@@ -53,27 +53,29 @@
     /* margin-left: 8%; */
   }
   .aboutmed {
-    width: 36%;
+    width: 40%;
     /* height: 700px; */
     flex-shrink: 0;
-    margin-left: 30px;
+    margin-left: 0px;
     color: #f0f0f0;
     line-height: normal;
     font-family: 'Space Mono', monospace; 
   }
   .vertical-line {
     width: 1px;
-    height: 100px;
+    height: 70px;
     background-color: white;
     position: relative;
     left: 8%;
     font-family: 'Space Mono', monospace;
   }
   .vertmain {
-    position: relative;
+   position: relative;
     padding-left: 2px;
     font-family: 'Space Mono', monospace;
     width: 12%;
+    padding-bottom: 70px;
+
   }
   .num {
     color: white;
@@ -81,30 +83,34 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 5px;
+    margin-top: 40px;
   }
 
 .started{
-margin-top: 800px;
+margin-top: 70px;
 align-items: center;
+justify-content: center;
+ padding-left: 580px; 
+ padding-bottom: 30px;
 
   }
 
   .getstarted {
   /* margin-right: 30px; */
-  /* padding-left: 30px; */
+ 
   /* padding-right: 50px; */
   padding-left: 50px;
-  justify-content: center;
+  
   align-items: center;
     background-color: purple;
     color: white;
     font-size: 20px;
-    font-family: arial;
+    font-family: 'Space Mono', monospace;;
     border-radius: 50px;
-    width: 200px;
+    width: 250px;
     border: none;
-    height: 50px;
+    height: 40px;
     border-radius: 4px;
     background: var(
       --Button-gradient,
@@ -152,8 +158,9 @@ align-items: center;
     border-radius: 70px;
     width: 60px;
     height: 60px;
-    background-color: gray;
+    
     border-width: 0;
+    margin-right: 30px;
   }
   .vidicon {
     width: 40px;
