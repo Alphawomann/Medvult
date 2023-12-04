@@ -83,7 +83,20 @@
     font-weight: 700;
     line-height: 32px;
   }
+
+.started{
+margin-top: 800px;
+align-items: center;
+
+  }
+
   .getstarted {
+  /* margin-right: 30px; */
+  /* padding-left: 30px; */
+  /* padding-right: 50px; */
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
     background-color: purple;
     color: white;
     font-size: 20px;
@@ -98,8 +111,7 @@
       linear-gradient(100deg, #1e78f0 1.81%, #9716ca 100%)
     );
     position: relative;
-    right: 30%;
-    margin-top: 32%;
+
   }
   .recbox {
     background: #0d366c;
@@ -238,5 +250,6 @@
     color: #fd6e0a;
   }
   .subandbut {
-    background-image: url("../image/pngw.png");
+    background-image: url("maskgroup.png");       
+    
   }
