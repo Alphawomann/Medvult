@@ -1,16 +1,9 @@
-body {
-    margin: 0;
-    background-image: url("../image/www.png");
-    background-color: #f0f0f0; 
-    background-size: cover;
-    position: relative;
-  }
-  .why {
+.why {
     display: flex;
     align-content: center;
     align-items: center;
     color: white;
-    text-align: center;
+    text-align: center; 
     position: relative;
     left: 45%;
     font-weight: 500;
@@ -23,21 +16,50 @@ body {
   .general {
     display: flex;
     flex-basis: auto;
+    justify-content: space-between;
   }
+
+
+  .macbook {
+    width: 570px;
+    /* height: 356px; */
+    flex-shrink: 0;
+    /* position: absolute; */
+    /* left: 12%; */
+    margin-top: 2%;
+  }
+
+  .iPhonepac {
+    
+    position: absolute;
+    top: 15%;
+    left: 72%; 
+    margin-bottom: 2%;
+  }
+  
+
+  .lpmain {
+    position: relative;
+    width: 50%;
+
+  }
+
+
+
   .image {
-    width: 555px;
+    /* width: 555px; */
     height: 566px;
     flex-shrink: 0;
-    margin-left: 8%;
+    /* margin-left: 8%; */
   }
   .aboutmed {
-    width: 555px;
-    height: 700px;
+    width: 36%;
+    /* height: 700px; */
     flex-shrink: 0;
-    margin-left: 50px;
+    margin-left: 30px;
     color: #f0f0f0;
     line-height: normal;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Space Mono', monospace; 
   }
   .vertical-line {
     width: 1px;
@@ -51,6 +73,7 @@ body {
     position: relative;
     padding-left: 2px;
     font-family: 'Space Mono', monospace;
+    width: 12%;
   }
   .num {
     color: white;
@@ -82,7 +105,9 @@ body {
     background: #0d366c;
     background-color: #0d366c;
     height: 300px;
-    width: 2000px;
+    /* 
+    
+    width: 2000px; */
     backdrop-filter: blur(200px);
     color: #f0f0f0;
     font-family: Space Mono, system-ui, -apple-system, "Segoe UI", "Open Sans",
@@ -105,10 +130,16 @@ body {
     position: absolute;
     flex-shrink: 0;
   }
+
+  .watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .circlebutton {
     border-radius: 70px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: gray;
     border-width: 0;
   }
@@ -116,49 +147,16 @@ body {
     width: 40px;
     height: 40px;
   }
-  .lpmain {
-    position: relative;
-  }
-  .lappac {
-    margin: 0;
-    background-image: url("../image/main.png");
-    width: 736px;
-    height: 414px;
-    flex-shrink: 0;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-  }
-  .macbook {
-    width: 554px;
-    height: 356px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 12%;
-    margin-top: 2%;
-  }
   
-  .iPhonepac {
-    margin: 0;
-    background-image: url("../image/main-1.png");
-    width: 165px;
-    height: 329px;
-    flex-shrink: 0;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 30%;
-    left: 75%;
-    margin-bottom: 2%;
-  }
+
+  
   .mainiphone {
-    width: 135px;
-    height: 292px;
+    width: 160px;
+    /* height: 292px; */
     flex-shrink: 0;
-    position: relative;
+    /* position: relative; */
     left: 8%;
-    margin-top: 11%;
+    /* margin-top: 11%; */
   }
   .Subscribe {
     display: flex;
@@ -204,14 +202,13 @@ body {
   }
   .lastdiv {
     display: flex;
-    background: #0d366c;
     background-color: #0d366c;
     height: 350px;
-    width: 2000px;
+    /* width: 2000px; */
     backdrop-filter: blur(200px);
     position: relative;
     align-items: center;
-    padding-left: 25%;
+    padding-left: 25%; 
   }
   .logo {
     height: 80px;

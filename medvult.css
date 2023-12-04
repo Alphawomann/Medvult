@@ -1,6 +1,8 @@
 .first{
 background-image: url("background.png");
 background-size: cover;
+background-repeat: no-repeat;
+overflow-x: hidden;
 /*background: var(linear-gradient(100deg, #1E78F0 11.81%, #9716CA 100%));*/
 }
 
